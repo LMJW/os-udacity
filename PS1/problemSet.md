@@ -5,6 +5,7 @@ Write a multi-threaded C program that gives readers priority over writers concer
 - Multiple readers/writers must be supported (5 of each is fine)
 - Readers must read the shared variable X number of times
 - Writers must write the shared variable X number of times
+> readers and writers all need a shared variable to keep track of how many times variable has been read/write
 - Readers must print:
     - The value read
     - The number of readers present when value is read
